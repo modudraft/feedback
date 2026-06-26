@@ -1,0 +1,42 @@
+name: MCP / AI integration issue
+description: Problem with the @modudraft/mcp server or AI agent integration
+labels: ["mcp", "bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Issues with the MCP server, tool calls, or AI agent (Claude/Cursor/etc.) integration."
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: input
+    id: mcp_version
+    attributes:
+      label: "@modudraft/mcp version"
+      placeholder: "e.g. 0.3.0 — run: npx @modudraft/mcp --version"
+    validations:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: AI client
+      options:
+        - Claude Desktop
+        - Cursor
+        - Windsurf
+        - VS Code (Copilot)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: tool_call
+    attributes:
+      label: Tool call and response
+      description: Paste the tool name, input, and error response if available.
+      render: json
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context

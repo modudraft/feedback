@@ -1,0 +1,46 @@
+name: Feature request
+description: Suggest an idea or improvement
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "We'd love to hear your ideas! Check existing issues first to avoid duplicates."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the pain point or use case.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Architecture canvas
+        - Sequence diagram
+        - DB Schema tab
+        - API Schema tab
+        - Cloud tab
+        - Data Flow tab
+        - Network tab
+        - MCP server / AI integration
+        - Export (PNG / Terraform / OpenAPI / etc.)
+        - Dashboard / file management
+        - Sharing / collaboration
+        - Mobile
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you've thought of?

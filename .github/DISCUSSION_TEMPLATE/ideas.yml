@@ -1,0 +1,16 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Share an idea that's not quite a feature request yet — early concepts, workflows, integrations."
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / use case

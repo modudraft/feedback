@@ -1,0 +1,9 @@
+title: "[General] "
+labels: []
+body:
+  - type: textarea
+    id: body
+    attributes:
+      label: Share your thoughts
+    validations:
+      required: true
