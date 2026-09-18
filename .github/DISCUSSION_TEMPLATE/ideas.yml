@@ -3,7 +3,7 @@ labels: []
 body:
   - type: markdown
     attributes:
-      value: "Share an idea that's not quite a feature request yet — early concepts, workflows, integrations."
+      value: "Share an idea that's not quite a feature request yet - early concepts, workflows, integrations."
   - type: textarea
     id: idea
     attributes:

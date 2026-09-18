@@ -1,6 +1,6 @@
-# Modudraft — Feedback & Issues
+# Modudraft - Feedback & Issues
 
-This is the public issue tracker for [Modudraft](https://modudraft.com) — the architecture
+This is the public issue tracker for [Modudraft](https://modudraft.com) - the architecture
 diagramming tool for engineering teams.
 
 The main codebase is private, but we use this repo for bugs, feature requests, and questions.

@@ -4,7 +4,7 @@ Thanks for helping make Modudraft better!
 
 ## Bugs and feature requests
 
-Use [GitHub Issues](https://github.com/modudraft/feedback/issues/new/choose) — pick the right template.
+Use [GitHub Issues](https://github.com/modudraft/feedback/issues/new/choose) - pick the right template.
 
 ## Questions
 
@@ -12,7 +12,7 @@ Use [GitHub Discussions](https://github.com/modudraft/feedback/discussions) → 
 
 ## Security vulnerabilities
 
-Email [security@modudraft.com](mailto:security@modudraft.com) — do not file a public issue.
+Email [security@modudraft.com](mailto:security@modudraft.com) - do not file a public issue.
 
 ## What this repo is
 
